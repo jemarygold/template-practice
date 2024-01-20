@@ -2,12 +2,15 @@
     font-family: 'Hero New', sans-serif;
 }
 
+body div {
+    padding: 40px 10%;
+}
 
-.header {
+.header, .footer {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 0px 40px;
+    /* padding: 0px 40px; */
 }
 
 
@@ -34,7 +37,7 @@
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    padding: 40px 40px;
+    /* padding: 40px; */
     justify-content: space-evenly;
     align-items: center;
 }
@@ -42,7 +45,11 @@
 .website-info-text {
     text-wrap: wrap;
     width: 50%;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
     padding-right: 40px;
+
     align-self: stretch;
 }
 
@@ -84,7 +91,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 40px;
+    /* padding: 0px 40px; */
 }
 
 .container-info-cards h2 {
@@ -96,28 +103,37 @@
 .carousel {
     display: flex;
     color: #4e4e4e;
+    flex-wrap: wrap;
     gap: 30px;
+    padding: 0;
+    justify-content: center;
 }
 
-
+.carousel-item {
+    padding: 0;
+}
 
 .carousel-item p {
-    width: 200px;
+    width: 150px;
     text-wrap: wrap;
     text-align: center;
 }
 
 .image-box {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    max-height: 150px;
+    max-width: 150px;
     border: 5px solid #3882f6;
     border-radius: 10px;
+    padding: 0;
 }
 
 .container-testimonial {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    /* padding: 40px; */
 }
 
 .quotation {
@@ -131,5 +147,44 @@
     font-size: 18px;
     text-align: right;
 }
+
+.container-call-to-action {
+    /* padding: 20px; */
+}
+
+.call-to-action-box {
+    margin: auto;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action-text {
+    color: #f9faf8;
+}
+
+.call-to-action-text h3{
+    margin: 0;
+}
+
+.call-to-action-box button{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 3px 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    max-height: 50px;
+    align-self: center;
+}
+
+.footer p {
+    color: #F9FAF8;
+    padding: 20px;
+    margin: auto;
+}
+
 
 
