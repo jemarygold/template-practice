@@ -43,12 +43,15 @@
     text-wrap: wrap;
     width: 50%;
     padding-right: 40px;
+    align-self: stretch;
 }
 
 .website-info-text h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
+
 }
 
 .website-info-text p {
@@ -76,6 +79,49 @@
 }
 
 
+.container-info-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.container-info-cards h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.carousel {
+    display: flex;
+    color: #4e4e4e;
+    gap: 30px;
+}
 
 
+
+.carousel-item p {
+    width: 200px;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.image-box {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.container-testimonial {
+    background-color: #E5E7EB;
+}
+
+.quotation {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
 
